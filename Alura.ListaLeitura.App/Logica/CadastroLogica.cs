@@ -12,8 +12,14 @@ using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App.Logica
 {
-    public class CadastroLogica
+    public class CadastroController
     {
+        public string Incluir(Livro livro)
+        {
+            var repo = new LivroRepositorioCSV();
+            repo.Incluir(livro);
+            return "O livro foi adicionado com sucesso";
+        }
 
         public static Task ProcessaFormulario(HttpContext context)
         {
@@ -32,20 +38,6 @@ namespace Alura.ListaLeitura.App.Logica
         {
             var html = HtmlUtils.CarregaArquivoHTML("formulario");
             return context.Response.WriteAsync(html);
-        }
-
-        public static Task NovoLivroParaLer(HttpContext context)
-        {
-            var livro = new Livro()
-            {
-                Titulo = Convert.ToString(context.GetRouteValue("nome")),
-                Autor = Convert.ToString(context.GetRouteValue("autor")),
-            };
-
-            var repo = new LivroRepositorioCSV();
-            repo.Incluir(livro);
-            return context.Response.WriteAsync("O livro foi adicionado com sucesso");
-
         }
     }
 }
