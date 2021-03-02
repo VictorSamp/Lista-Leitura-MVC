@@ -5483,11 +5483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Downloads\\Alura.ListaLeitura.Aula1\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
+      "projectUniqueName": "D:\\workspace\\Lista-Leitura-MVC\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
       "projectName": "Alura.ListaLeitura.App",
-      "projectPath": "E:\\Downloads\\Alura.ListaLeitura.Aula1\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
+      "projectPath": "D:\\workspace\\Lista-Leitura-MVC\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "E:\\Downloads\\Alura.ListaLeitura.Aula1\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\obj\\",
+      "outputPath": "D:\\workspace\\Lista-Leitura-MVC\\Alura.ListaLeitura.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",

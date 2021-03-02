@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tC77BJlKt5+xZMUV6vdsiy5Xdw4RVKBKgbtQz9Kd6sPCULipOPpTR3LBlrpETAx9RDcCY9N1a1uHnPGowQo0vg==",
+  "dgSpecHash": "v5h0BsNMzItFC1nAb2Opcl1PaKGaQ6mgBJIWdztQ4NTxUDSGfP3tMtGTHv83UF2sdHFd3Srx/dkQmR9bsO1LQQ==",
   "success": true,
-  "projectFilePath": "E:\\Downloads\\Alura.ListaLeitura.Aula1\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
+  "projectFilePath": "D:\\workspace\\Lista-Leitura-MVC\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.aspnetcore\\2.0.1\\microsoft.aspnetcore.2.0.1.nupkg.sha512",
